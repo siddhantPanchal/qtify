@@ -1,0 +1,11 @@
+.hero-section {
+  width: auto;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  text-align: center;
+}

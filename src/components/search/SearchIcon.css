@@ -1,0 +1,13 @@
+.search-icon {
+  width: 66px;
+  height: 48px;
+  border-radius: 0px 8px 8px 0px;
+  border: 1px  solid var(--color-black); 
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-icon img {
+    background-color: var(--color-white);
+}

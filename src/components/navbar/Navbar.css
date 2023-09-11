@@ -1,0 +1,52 @@
+nav {
+  height: 74px;
+  width: auto;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-left: 2rem;
+}
+
+nav img {
+  background-color: var(--color-primary);
+}
+
+nav button {
+  color: var(--color-primary);
+  background-color: var(--color-black);
+  width: 170px;
+  height: 47px;
+  top: 13px;
+  left: 1238px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 100ms ease-in;
+}
+
+nav button:hover {
+  scale: 1.05;
+}
+
+nav input {
+  width: 568px;
+  height: 48px;
+  top: 13px;
+  left: 436px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
