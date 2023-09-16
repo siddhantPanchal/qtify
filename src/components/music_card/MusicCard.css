@@ -1,0 +1,24 @@
+.music-card {
+  height: 250px;
+  width: 190px;
+  background-color: var(--color-white);
+  color: var(--color-white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.chip {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 30px;
+}
+
+.music-title {
+  color: var(--color-white);
+  font-weight: 400;
+}
