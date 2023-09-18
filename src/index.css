@@ -1,11 +1,17 @@
 :root {
- --color-primary : #34C94B;
- --color-black : #121212;
- --color-white : #ffffff;
+  --color-primary: #34c94b;
+  --color-black: #121212;
+  --color-white: #ffffff;
 }
 
-body{
+body {
   background-color: var(--color-black);
-  font-family: 'Poppins' , "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--color-white);
+}
+
+hr .divider {
+  color: var(--color-primary);
+  background-color: var(--color-primary);
+  height: 5;
 }
