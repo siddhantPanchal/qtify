@@ -1,7 +1,7 @@
 import React from "react";
 import "./MusicCard.css";
 
-export default function MusicCard({ title, img, follows }) {
+export default function MusicCard({ title, img, follows, likes }) {
   return (
     <>
       <div className="music-card">
@@ -14,7 +14,11 @@ export default function MusicCard({ title, img, follows }) {
             height: "80%",
           }}
         />
-        <div className="chip">{`${follows} follows`}</div>
+        {follows ? (
+          <div className="chip">{`${follows} follows`}</div>
+        ) : (
+          <div className="chip">{`${likes} likes`}</div>
+        )}
       </div>
       <div style={{ padding: 10 }}>
         <span className="music-title">{title}</span>

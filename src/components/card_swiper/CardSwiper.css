@@ -1,0 +1,39 @@
+.swiper-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.view-all {
+  cursor: pointer;
+  height: 80px;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.left-button,
+.right-button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.right-button {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.swiper {
+  position: relative;
+}
